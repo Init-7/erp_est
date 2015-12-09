@@ -7,6 +7,9 @@ https://github.com/odoo/odoo
 * ERP Next (Python)
 https://github.com/frappe/erpnext
 
+* Dolibarr (PHP)
+https://github.com/Dolibarr/dolibarr
+
 Frameworks
 ==========
 * Django (Python)
