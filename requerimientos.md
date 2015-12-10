@@ -1,3 +1,5 @@
+# Cuestionario de requerimientos
+
 -¿Qué es lo que usted desea (objetivo del sistema)?
 -¿Qué es lo que debe hacer el sistema?
 1.-¿Cuál es la rutina o proceso que realizan actualmente para hacer el proceso que desea el sistema haga?
