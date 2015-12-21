@@ -1,5 +1,4 @@
-Guia de desarrollo con Frappe Framework
-=======================================
+#Guia de desarrollo con Frappe Framework
 
 Guia de primeros pasos para el desarrollo de modulos de un ERP con el framework Frappe.
 
@@ -7,8 +6,8 @@ La siguiente guia esta elaborada para ser utilizada en un servidor con CentOS 7 
 
 Documentacion basada en http://frappe.github.io/frappe/user/tutorial/
 
-Instalacion
-===========
+##Instalacion
+
 1. Asegurese de tener una conexion a internet estable, ya que al fallar la descarga puede fallar toda la instalacion
 
 2. Como usuario normal con privilegios de administracion (no root) ejecute:
@@ -26,8 +25,8 @@ El script anterior crea:
 * **frappe_passwords.txt** : Archivo con las claves Frappe, root de Mariadb y Administrator del sitio preconfigurado.
 
 
-Modo Desarrollador
-==================
+##Modo Desarrollador
+
 Editar el archivo ./frappe_bench/sites/[site]/site_config.json y agregar:
 
 >{
