@@ -46,22 +46,22 @@ Editar el archivo ./frappe_bench/sites/[site]/site_config.json y agregar:
 
 ##Utilizando bench
 
->**bench new-app nombre_app **
+>**bench new-app nombre_app**
 
 Crea una nueva aplicacion
 
 
->**bench new-site nombre_del_sitio **
+>**bench new-site nombre_del_sitio**
 
 Crea un nuevo sitio
 
 
->**bench use nombre_del_sitio **
+>**bench use nombre_del_sitio**
 
 Utilizar el nuevo sitio creado
 
 
->**bench install-app nombre_de_la_app **
+>**bench install-app nombre_de_la_app**
 
 Instala la aplicacion creada en el sitio
 
