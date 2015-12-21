@@ -44,8 +44,7 @@ Editar el archivo ./frappe_bench/sites/[site]/site_config.json y agregar:
 >}**
 
 
-Utilizando bench
-================
+##Utilizando bench
 
 >**bench new-app nombre_app **
 
@@ -76,15 +75,13 @@ Inicia el servidor, usando el ambiente virtual de python ubicado en ./frappe-ben
 
 Permite acceder a mysql directamente sin el uso de credenciales. Se utilizara la base de datos del sitio que esta siendo utilizado.
 
-Modelos
-=======
+##Modelos
 
 Los modelos son creados y administrados a travez de una interfaz web en el menu de desarrollador.
 
 
-Vistas
-======
+##Vistas
 
 
-Controladores
-=============
+##Controladores
+
