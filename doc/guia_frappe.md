@@ -31,12 +31,19 @@ Modo Desarrollador
 Editar el archivo ./frappe_bench/sites/[site]/site_config.json y agregar:
 
 >{
+
 >"db_name": "....",
+
 >"db_password": "....",
+
 >**"developer_mode": "1",
+
 >"disable_website_cache":"1",
+
 >"logging": "2"
+
 >}**
+
 
 Utilizando bench
 ================
