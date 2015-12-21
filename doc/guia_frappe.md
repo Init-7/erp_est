@@ -24,12 +24,12 @@ El script anterior crea dos directorios:
 Utilizando bench
 ================
 
->bench start
+>**bench start**
 Inicia el servidor, usando el ambiente virtual de python ubicado en ./frappe-bench/env en la direccion http://localhost:8000/
 
 
 
->bench mysql
+>**bench mysql**
 Permite acceder a mysql directamente sin el uso de credenciales. Se utilizara la base de datos del sitio que esta siendo utilizado.
 
 Modelos
