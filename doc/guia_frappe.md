@@ -16,20 +16,44 @@ Instalacion
 > wget https://raw.githubusercontent.com/frappe/bench/master/install_scripts/setup_frappe.sh
 > sudo bash setup_frappe.sh
 
-El script anterior crea dos directorios:
-* **bench-repo** : El cual almacena la herramienta *bench* para ser utilizada por el usuario que instalo la aplicacion. Esta herramienta permite desarrollar sitios y aplicaciones con Frappe y servir un sitio desarrollado con Frappe.
+El script anterior crea:
+
+* **bench-repo** : Directorio que almacena la herramienta *bench* para ser utilizada por el usuario que instalo la aplicacion. Esta herramienta permite desarrollar sitios y aplicaciones con Frappe y servir un sitio desarrollado con Frappe.
+
 * **frappe-bench** : Directorio para la creacion de app de frappe con la aplicacion ERP Next y un sitio preinstalados y configurados.
 
+* **frappe_passwords.txt** : Archivo con las clave de Frappe, root de Mariadb y Administrator del sitio preconfigurado.
 
 Utilizando bench
 ================
 
+>**bench new-app *nombre_app* **
+
+Crea una nueva aplicacion
+
+
+>**bench new-site *nombre_del_sitio* **
+
+Crea un nuevo sitio
+
+
+>**bench use *nombre_del_sitio* **
+
+Utilizar el nuevo sitio creado
+
+
+>**bench install-app *nombre_de_la_app* **
+
+Instala la aplicacion creada en el sitio
+
+
 >**bench start**
+
 Inicia el servidor, usando el ambiente virtual de python ubicado en ./frappe-bench/env en la direccion http://localhost:8000/
 
 
-
 >**bench mysql**
+
 Permite acceder a mysql directamente sin el uso de credenciales. Se utilizara la base de datos del sitio que esta siendo utilizado.
 
 Modelos
