@@ -14,6 +14,7 @@ Instalacion
 2. Como usuario normal con privilegios de administracion (no root) ejecute:
 
 > wget https://raw.githubusercontent.com/frappe/bench/master/install_scripts/setup_frappe.sh
+
 > sudo bash setup_frappe.sh
 
 El script anterior crea:
@@ -22,27 +23,40 @@ El script anterior crea:
 
 * **frappe-bench** : Directorio para la creacion de app de frappe con la aplicacion ERP Next y un sitio preinstalados y configurados.
 
-* **frappe_passwords.txt** : Archivo con las clave de Frappe, root de Mariadb y Administrator del sitio preconfigurado.
+* **frappe_passwords.txt** : Archivo con las claves Frappe, root de Mariadb y Administrator del sitio preconfigurado.
+
+
+Modo Desarrollador
+==================
+Editar el archivo ./frappe_bench/sites/[site]/site_config.json y agregar:
+
+>{
+>"db_name": "....",
+>"db_password": "....",
+>**"developer_mode": "1",
+>"disable_website_cache":"1",
+>"logging": "2"
+>}**
 
 Utilizando bench
 ================
 
->**bench new-app *nombre_app* **
+>**bench new-app nombre_app **
 
 Crea una nueva aplicacion
 
 
->**bench new-site *nombre_del_sitio* **
+>**bench new-site nombre_del_sitio **
 
 Crea un nuevo sitio
 
 
->**bench use *nombre_del_sitio* **
+>**bench use nombre_del_sitio **
 
 Utilizar el nuevo sitio creado
 
 
->**bench install-app *nombre_de_la_app* **
+>**bench install-app nombre_de_la_app **
 
 Instala la aplicacion creada en el sitio
 
