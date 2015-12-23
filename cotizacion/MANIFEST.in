@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include cotizacion *.css
+recursive-include cotizacion *.csv
+recursive-include cotizacion *.html
+recursive-include cotizacion *.ico
+recursive-include cotizacion *.js
+recursive-include cotizacion *.json
+recursive-include cotizacion *.md
+recursive-include cotizacion *.png
+recursive-include cotizacion *.py
+recursive-include cotizacion *.svg
+recursive-include cotizacion *.txt
+recursive-exclude cotizacion *.pyc
