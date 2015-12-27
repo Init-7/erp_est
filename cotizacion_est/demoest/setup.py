@@ -7,9 +7,9 @@ version = '0.0.1'
 setup(
     name='demoest',
     version=version,
-    description='Demo',
+    description='Demo app',
     author='Daniel',
-    author_email='desp002',
+    author_email='desp002@gmail.com',
     packages=find_packages(),
     zip_safe=False,
     include_package_data=True,

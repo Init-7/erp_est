@@ -1,6 +1,6 @@
 ## Demoest
 
-Demo
+Demo app
 
 #### License
 

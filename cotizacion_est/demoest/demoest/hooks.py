@@ -4,12 +4,11 @@ from __future__ import unicode_literals
 app_name = "demoest"
 app_title = "Demoest"
 app_publisher = "Daniel"
-app_description = "Demo"
+app_description = "Demo app"
 app_icon = "octicon octicon-file-directory"
 app_color = "grey"
-app_email = "desp002"
+app_email = "desp002@gmail.com"
 app_version = "0.0.1"
-app_license = "MIT"
 
 # Includes in <head>
 # ------------------
