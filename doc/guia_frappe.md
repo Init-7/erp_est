@@ -104,9 +104,9 @@ Estos scripts son guardados en ficheros .JSON.
 El modelo en Frappe es representado por Doctypes, estos documentos representan una nueva tabla en una base de datos.
 Cada doctype está asociado a un módulo y puede ser clasificado como:
 
-*Documento
-*Configuración
-*Sistema
+* Documento
+* Configuración
+* Sistema
 
 ###Creación de Doctypes
 
