@@ -85,7 +85,7 @@ Los modelos son creados y administrados a travez de una interfaz web en el menu 
 
 ##Controladores
 
-#Secuencias perzonalizadas
+##Secuencias perzonalizadas
 
 Sirven para realizar operaciones dentro de las páginas, gatilladas por eventos de usuario.
 La forma de crear estas operaciones es creando documentos en formato JS.
