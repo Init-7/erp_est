@@ -90,10 +90,23 @@ Los modelos son creados y administrados a travez de una interfaz web en el menu 
 Sirven para realizar operaciones dentro de las páginas, gatilladas por eventos de usuario.
 La forma de crear estas operaciones es creando documentos en formato JS.
 
-El siguiente es un enlace que lleva a documentación acerca de creación de scripts.
+Los siguientes son enlaces que llevan a documentación acerca de creación de scripts.
 
 https://frappe.github.io/frappe/user/tutorial/form-client-scripting.html
+http://frappe.github.io/erpnext/user/manual/en/customize-erpnext/custom-scripts/
 
 Para crear un nuevo script dirigirse a Configuración-> Personalizar-> Secuencia Personalizada
 
 Estos scripts son guardados en ficheros .JSON.
+
+##Doctypes
+
+El modelo en Frappe es representado por Doctypes, estos documentos representan una nueva tabla en una base de datos.
+Cada doctype está asociado a un módulo y puede ser clasificado como:
+
+*Documento
+*Configuración
+*Sistema
+
+###Creación de Doctypes
+
