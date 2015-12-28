@@ -96,3 +96,4 @@ https://frappe.github.io/frappe/user/tutorial/form-client-scripting.html
 
 Para crear un nuevo script dirigirse a Configuración-> Personalizar-> Secuencia Personalizada
 
+Estos scripts son guardados en ficheros .JSON.
