@@ -110,3 +110,8 @@ Cada doctype está asociado a un módulo y puede ser clasificado como:
 
 ###Creación de Doctypes
 
+Para crear un nuevo doctype dirigirse a Configuración -> Personalizar -> Doctype
+
+En este nuevo formulario se deben insertar los campos que tendrá este nuevo Doctype.
+
+
