@@ -85,3 +85,14 @@ Los modelos son creados y administrados a travez de una interfaz web en el menu 
 
 ##Controladores
 
+#Secuencias perzonalizadas
+
+Sirven para realizar operaciones dentro de las páginas, gatilladas por eventos de usuario.
+La forma de crear estas operaciones es creando documentos en formato JS.
+
+El siguiente es un enlace que lleva a documentación acerca de creación de scripts.
+
+https://frappe.github.io/frappe/user/tutorial/form-client-scripting.html
+
+Para crear un nuevo script dirigirse a Configuración-> Personalizar-> Secuencia Personalizada
+
