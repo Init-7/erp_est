@@ -35,13 +35,13 @@ Editar el archivo ./frappe_bench/sites/[site]/site_config.json y agregar:
 
 >"db_password": "....",
 
->**"developer_mode": "1",
+>"developer_mode": "1",
 
 >"disable_website_cache":"1",
 
 >"logging": "2"
 
->}**
+>}
 
 
 ##Utilizando bench
@@ -158,6 +158,10 @@ Cada vez que se utilice **"bench update"** frappe buscará actualizaciones en el
 > ./env/bin/pip install -e ./apps/demoest
 
 La aplicación será instalada en el virtualenv creado automaticamente por bench durante su instalación con pip
+
+> bench install-app demoest
+
+Instalar la aplicación en el site
 
 > bench migrate
 
