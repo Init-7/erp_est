@@ -126,47 +126,14 @@ Primero es necesario moverse al directorio de la aplicación, en este ejemplo, s
 
 > git init
 
-Iniciar un nuevo repositorio git para esta aplicación
+Iniciar ERPNext en una aplicación.
 
-> git add --all
+Luego de tener instalado ErpNext localmente:
 
->git commit -m "First commit"
+> bench --site [nombre de sitio] install-app erpnext
 
-Agrega todos los elemento necesarios para ser versionados, algunos específicados en .gitignore son omitidos, se recomienda utilizar .gitignore generado automáticamente. Luego, los compromete.
+ERPnext exige que al instalarse en un sitio, este debe contar con una instalación fresca, en caso de que esto no se cumpla se puede reinstalar nuevamente el sitio:
 
-
->git remote add origin https://github.com/Init-7/demoest.git
-
->git push -u origin master
-
-Crear repositorio remoto y configurarlo para cargar el repositorio creado. Es recomendable reemplazar estas lineas por lo que recomiende el servidor remoto (Github, Bitbucket, Gitlab, etc)
-
-Esta aplicación, con todos sus modelos (docTypes) puede ser integrada a cualquier sitio.
+> bench --site [nombre de sitio] reinstall
 
 
-### Integración de una aplicación versionada en un sitio funcionando
-
-> bench use estchile.cl
-
-Seleccionar el sitio que desea utilizar, en este caso estchile.cl
-
-> bench get-app demoest https://github.com/Init-7/demoest
-
-Utilizando bench get-app indicar el nombre de la aplicación que se desea integrar y la url del repositorio. En este paso encontraremos errores para la instalación automática, pero efectivamente la aplicación será descargada en ./apps y agregada a la lista en apps.txt.
-Cada vez que se utilice **"bench update"** frappe buscará actualizaciones en el repositorio remoto.
-
-> ./env/bin/pip install -e ./apps/demoest
-
-La aplicación será instalada en el virtualenv creado automaticamente por bench durante su instalación con pip
-
-> bench install-app demoest
-
-Instalar la aplicación en el site
-
-> bench migrate
-
-Migrar la base de datos a la actualización más reciente de todas sus aplicaciones.
-
-> bench start
-
-Probar la aplicación después de ser migrada, esta debiese aparecer inmediatamente en el desk.
