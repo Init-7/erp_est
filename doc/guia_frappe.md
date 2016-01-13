@@ -126,7 +126,7 @@ Primero es necesario moverse al directorio de la aplicación, en este ejemplo, s
 
 > git init
 
-Iniciar ERPNext en una aplicación.
+###Instalar ERPNext en una aplicación.
 
 Luego de tener instalado ErpNext localmente:
 
